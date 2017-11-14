@@ -8,3 +8,4 @@ RUN apk upgrade
 
 # install ansible and bash
 RUN apk add --no-cache ansible bash curl
+RUN apk add --no-cache sshd
